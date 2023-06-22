@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="estilos/style.css">
+	<link rel="stylesheet" type="text/css" href="estilos/fotos.css">
+	<link rel="shortcut icon" href="imagens/icone.png">
+	<title>Reserva</title>
+</head>
+	<header class="menu">
+	<nav>
+		<ul>
+			<div> <li><h3>Hotel Fazenda </h3></li></div>
+			<div class="menuD">
+				<li><a href="index.html">Inicio</a></li>
+				<li><a>Lazer</a>
+					<ul>
+					<li><a href="cachoeira.html">Cachoeiras</a></li>
+					<li><a href="arvorismo.html">Arvorismo</a></li>
+					<li><a href="radicais.html">Radicais</a></li>
+					</ul>
+				</li>
+				<li><a href="reserva.html">Reservas</a></li>
+			</div>
+		</ul>
+	</nav>
+	</header>
+		<div class="menutop"></div>
+	<hr>
+<body>
+	<article>
+		<h2>Formulario de reserva</h2>
+	</article>
+	<article class="form">
+			<form method="post" id="f_contato" action="mailto:IF_viagens@gmail.com">
+					<fieldset id="id_usuario">
+						<legend>Cadastro de Interesse</legend>
+						<p><label for="cNome">Nome</label><input type="text" name="tNome" id="cNome" size="40" maxlength="50" placeholder="Nome Completo"></p>
+						<p><label for="cEmail">E-mail:</label><input type="email" name="tEmail" id="cEmail" size="25" maxlength="40" placeholder="Digite seu email"></p>
+						<p><label for="cTel">Telefone</label><input type="number" name="tTel" id="cTel" size="11" maxlength="11" placeholder="Telefone com DDD"></p>
+						<p><label for="cDate">Data de Nascimeto</label><input type="date" name="tDate" id="cDate"></p>
+					</fieldset>
+					<fieldset id="end_usuario">
+						<legend>Dados de interesse da hospedagem</legend>
+						<p><label for="cIda">Data de Ida</label><input type="date" name="tIda" id="cIda"> &emsp;<label for="cVolta">Data de Volta</label><input type="date" name="tVolta" id="cVolta"></p>
+
+						<p><label>Numero de Adultos: </label><input type="number" name="tPes" id="cPes" min="0" max="99999"></p>
+						<fieldset>
+							<legend>Crianças?</legend>
+							<p><input type="radio" name="rCrc" id="cSim"><label for="cSim">Sim</label></p>
+							<p><input type="radio" name="rCrc" id="cNao"><label for="cNao">Nao</label></p>
+							<p><label>Se sim quantas?</label><input type="number" name="tCrc" id="cCrc" min="0" max="99999"></p>
+						</fieldset>
+
+					</fieldset>
+
+					<fieldset id="msn_usuario">
+						<legend>Observações</legend>
+						<p><label>Mensagem</label></p>
+						<textarea name="tMsn" id="cMsn" cols="42" rows="10" maxlength="200"></textarea>
+					</fieldset>
+
+					<fieldset id="opcionais">
+						<legend>Dados Complementares</legend>
+						<p><input type="checkbox" name="cvSeg" id="cSeg"><label for="cSeg">Seguro Viagem</label></p>
+						<p><input type="checkbox" name="cbEmail" id="cbxEmail" checked><label for="cxEmail">Deseja receber email de confirmação</label></p>
+						
+					</fieldset>
+					<div align="center"><input  type="submit" name="bSub" id="btnSub" ></div>
+			    </form>
+	</article>
+	<br><br><br><br>
+
+<footer>
+	<div>Rodovia BR153, KM633 Zona Rural, Morrinhos - GO, 75650-000</div>
+	<div>YanLdc&copy;</div>
+	<div>
+	<a href="https://www.youtube.com/" target="_blank"><img src="imagens/youtube.png" width="40px"></a>
+	<a href="https://www.facebook.com/" target="_blank"><img src="imagens/facebook.png" width="40px"></a>
+	<a href="https://www.instagram.com/" target="_blank"><img src="imagens/instagram.png" width="40px"></a>
+	<a href="https://www.tiktok.com/pt-BR/" target="_blank"><img src="imagens/tiktok.png" width="35px"></a>
+    </div>
+</footer>
+</body>
+</html>

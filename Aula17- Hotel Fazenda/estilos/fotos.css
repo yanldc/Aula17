@@ -1,0 +1,259 @@
+#album {
+width: 50em;
+Margin: 0 auto;
+Padding: 1em;
+Overflow: hidden;
+List-style: none;
+}
+
+#album li {
+float: left;
+Width: 13em;
+Height: 13em;
+Border: 0.2em solid #FFFFFF;
+Background-color:#FFFFFF;
+Box-shadow: 0.1em 0.1em 0.3em black;
+}
+
+#album li:hover {
+transform: scale(2.5);
+}
+
+#c1{
+background: url(../imagens/c1.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c2{
+background: url(../imagens/c2.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c3{
+background: url(../imagens/c3.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c4{
+background: url(../imagens/c4.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c5{
+background: url(../imagens/c5.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c6{
+background: url(../imagens/c6.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c7{
+background: url(../imagens/c7.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c8{
+background: url(../imagens/c8.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#c9{
+background: url(../imagens/c9.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+#r1{
+background: url(../imagens/r1.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r2{
+background: url(../imagens/r2.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r3{
+background: url(../imagens/r3.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r4{
+background: url(../imagens/r4.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r5{
+background: url(../imagens/r5.jpeg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r6{
+background: url(../imagens/r6.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r7{
+background: url(../imagens/r7.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r8{
+background: url(../imagens/r8.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#r9{
+background: url(../imagens/r9.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+#a1{
+background: url(../imagens/a1.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a2{
+background: url(../imagens/a2.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a3{
+background: url(../imagens/a3.jpeg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a4{
+background: url(../imagens/a4.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a5{
+background: url(../imagens/a5.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a6{
+background: url(../imagens/a6.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a7{
+background: url(../imagens/a7.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a8{
+background: url(../imagens/a8.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+#a9{
+background: url(../imagens/a9.jpg) no-repeat;
+Background-position: 50% 50%;
+Background-size: 20em 20em;
+Background-color: #FFFFFF;
+}
+
+
+
+
+
+@media(max-width: 450px){
+#album {
+width: 25em;
+Margin: 0 auto;
+Padding: 0em;
+Overflow: hidden;
+List-style: none;
+}
+
+#album li {
+float: center;
+padding: 2.8em;
+Width: 5em;
+Height: 5em;
+Border: 0.2em solid #FFFFFF;
+Background-color:#FFFFFF;
+Box-shadow: 0.1em 0.1em 0.3em black;
+}
+
+#album li:hover {
+transform: scale(2.5);
+}
+
+	}
